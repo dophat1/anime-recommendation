@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Anime Recommendation
 <img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/df797346-3dd3-47c3-8f95-92f4b627d177" />
 A content-based anime recommender: pick your favorite title(s) and get back visually/thematically similar anime, using genre and popularity features rather than user ratings (no collaborative filtering data available).
