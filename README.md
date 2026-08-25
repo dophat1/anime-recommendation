@@ -41,12 +41,16 @@ Run the cells top to bottom; the last cell prompts for your favorite anime title
 
 To scrape a fresh dataset instead of using the included one: `python scrape.py` (takes a while — it's rate-limited and paginated against the live Jikan API).
 
-## Limitations / next steps
+## Limitations 
 
 - Purely content-based on genre + popularity metadata — no synopsis/plot text, no user rating history, so it can't capture "similar vibe, different genre tags."
 - No formal evaluation of recommendation quality (no held-out relevance judgments) — recommendations are only as good as genre-overlap intuition suggests, not validated against a metric.
 - Genre input titles are case-sensitive exact matches against the dataset.
-=======
+
+### Next steps
+
+- Predict based on the similarities of the content of the film as well with NLP, not only genres and quantitative value. 
+- Capture user rating history as part of predictions.
 
 # Management summary
 The goal of the project is recommending anime (Japanese Animation film) according to the favourite one of users with the help of machine learning algorithms.
