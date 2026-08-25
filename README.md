@@ -32,7 +32,9 @@ python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-jupyter notebook "Anime Recommend.ipynb"
+python scrape.py # Fetch data from the free Jikan API
+
+jupyter notebook "Anime Recommend.ipynb" # For your analyzing and recommendations.
 ```
 
 Run the cells top to bottom; the last cell prompts for your favorite anime titles and which algorithm to use.
